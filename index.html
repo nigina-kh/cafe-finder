@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe Finder</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>☕ Cafe Finder</h1>
+    <p>Find cafes near you</p>
+  </header>
+
+  <div id="map"></div>
+
+  <footer>
+    <p>Built with JavaScript & Google Maps</p>
+  </footer>
+
+  <script src="app.js"></script>
+  <script
+    async
+    defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap">
+  </script>
+
+</body>
+</html>

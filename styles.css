@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  background: #6f4e37;
+  color: white;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+#map {
+  width: 100%;
+  height: calc(100vh - 140px);
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem;
+  background: #eee;
+  font-size: 0.9rem;
+}
