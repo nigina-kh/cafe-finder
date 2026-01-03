@@ -20,12 +20,11 @@ A web application that helps users find nearby cafes using their current locatio
 
 ## Project Structure
 cafe-finder/
-│── index.html
-│── styles.css
-│── app.js
-│── .gitignore
-│── README.md
-
+- index.html
+- styles.css
+- app.js
+- .gitignore
+- README.md
 
 ## Setup
 1. Clone the repo
